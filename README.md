@@ -11,7 +11,7 @@ greet("Alice")   # "Hello, Alice!"
 shout("Alice")   # "HELLO, ALICE!"
 ```
 
-## Runing
+## Running
 
 ```bash
 python greet.py
