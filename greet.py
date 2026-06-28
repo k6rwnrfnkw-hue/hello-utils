@@ -10,5 +10,12 @@ def shout(name):
     return greet(name).upper()
 
 
+def farewell(name):
+    """Return a farewell string for the given name."""
+    if not name:
+        return "Goodbye, World!"
+    return f"Goodbye, {name}!"
+
+
 if __name__ == "__main__":
     print(greet("Claude"))
